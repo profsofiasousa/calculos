@@ -11,9 +11,15 @@ namespace Calculos
     /// </summary>
     internal class aritmetica
     {
-        public int somar(int x, int y)
+        public int Somar (int x, int y)
         {
             return x + y;
+        } 
+        
+        public int Subtrair (int x, int y)
+        {
+            return x - y;
         }
+
     }
 }
